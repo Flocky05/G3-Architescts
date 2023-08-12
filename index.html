@@ -6,8 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G3-Architects</title>
     <link rel="shortcut icon" href="./images/icons/customers.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
 </head>
 <body>
-    
+   <!-- nav section start  -->
+   <div class="flex justify-between items-center p-4 lg:p-10 px-2 lg:px-16 bg-[#ff900e1a]">
+     <div>
+        <h3 class="text-3xl font-bold">G3 Architects</h3>
+     </div>
+     <div>
+        <ul class="flex gap-5 text-lg font-semibold ">
+            <li>Home</li>
+            <li>Contract</li>
+            <li>About Us</li>
+            <li>Login</li>
+        </ul>
+     </div>
+   </div>
+   <!-- nav section end -->
+   <!-- header section start  -->
+   <div class="text-center bg-[#ff900e1a]">
+        <h1 class=" text-2xl lg:text-4xl font-bold">Brand New <br> Group of Architects</h1>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some <br> form, by injected humour, or randomised words which don't look even</p>
+        <button class="px-5 py-2 bg-[#FF900E] rounded-lg text-white my-6 lg:my-12">Explore More</button>
+   </div>
+   <!-- header section end -->
 </body>
 </html>
